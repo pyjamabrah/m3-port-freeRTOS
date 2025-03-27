@@ -7,10 +7,11 @@
 #define configMAX_PRIORITIES 4
 #define configUSE_PREEMPTION 1
 #define configUSE_IDLE_HOOK 0
-#define configUSE_TICK_HOOK 0
+#define configUSE_TICK_HOOK 1
 
-#define configCPU_CLOCK_HZ 12000
-#define configTICK_RATE_HZ 1000
-#define configTOTAL_HEAP_SIZE 1024
+#define configCPU_CLOCK_HZ 8000000
+#define configTICK_RATE_HZ 100
+#define configTOTAL_HEAP_SIZE 0x1000
+#define configKERNEL_INTERRUPT_PRIORITY 15
 
 #endif

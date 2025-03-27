@@ -13,7 +13,7 @@ OBJ = boot.o \
 			$(FREERTOS_PATH)/queue.o \
 			$(FREERTOS_PATH)/list.o \
 			$(FREERTOS_PATH)/event_groups.o \
-			$(FREERTOS_PATH)/portable/MemMang/heap_4.o \
+			$(FREERTOS_PATH)/portable/MemMang/heap_1.o \
 			$(FREERTOS_PATH)/portable/GCC/ARM_CM3/port.o
 
 INC = -I$(FREERTOS_PATH)/portable/GCC/ARM_CM3/ \
